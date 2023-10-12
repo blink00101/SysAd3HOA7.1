@@ -14,4 +14,4 @@
       src: "{{ item.path }}"
       dest: /tmp/logs/
       flat: yes
-    with_items: "{{ log_files.files}}"
+    with_items: "{{ log_files.files }}"
